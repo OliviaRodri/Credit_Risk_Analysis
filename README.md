@@ -1,7 +1,14 @@
 # Credit_Risk_Analysis
 
 ## Overview
-The purpose of this analysis was to apply machine learning to predict credit risk for a lending services company. The models that were used to run this analysis were undersampling, oversampling, and a combinational model of over and under sampling. 
+The purpose of this analysis was to apply machine learning to predict credit risk for a lending services company. 
+The models/algorithms that were used to run this analysis are as follows:
+- Random Over Sampler (oversampling) 
+- Smote (oversampling) 
+- Cluster Centroids (under sampling) 
+- Smoteen (combinational model of over and under sampling)
+- Balanced Random Forest Classifier
+- Easy Ensemble Classifier   
 
 ## Results: 
 Image below is the loan status count of 'low risk' and 'high risk' for this analysis.
@@ -19,10 +26,7 @@ Results for the Naive Over Sampling are as follows:
 - The recall score for 
   - high risk: .59
   - low risk: .67
-- The f1 score for 
-  - high risk : 0.02
-  - low risk : .80
-  
+     
  Model 2:
 
 ![credRisk_images](Resources/smote_ovr_samp_title.PNG)
@@ -35,11 +39,8 @@ Results for the Smote over sampling are as follows:
 - The recall score for 
   - high risk: .62
   - low risk: .64
-- The f1 score for 
-  - high risk : 0.02
-  - low risk : .78
    
-Model 3:
+Model 3: CLUSTER CENTROIDS
 
 ![credRisk_images](Resources/undr_samp_title.PNG)
 ![credRisk_images](Resources/undr_samp_blnc_cnfmtrx_rprt.PNG)
@@ -51,11 +52,8 @@ Model 3:
 - The recall score for 
   - high risk: .64
   - low risk: .40
-- The f1 score for 
-  - high risk : 0.01
-  - low risk : .57
 
-Model 4:
+Model 4: SMOTEEN
 
 ![credRisk_images](Resources/combo_ovr_undr_samp_title.PNG)
 ![credRisk_images](Resources/combo_undrOvr_blnc_cnfmtrx_rprt.PNG)
@@ -67,9 +65,8 @@ Model 4:
 - The recall score for 
   - high risk: .69
   - low risk: .60
-- The f1 score for 
-  - high risk : 0.02
-  - low risk : .75
+
+Model 5:
 
 ![credRisk_images](Resources/ensemble_learner_title.PNG)
 ![credRisk_images](Resources/bal_rnd_forest_title.PNG)
@@ -82,11 +79,8 @@ Model 4:
 - The recall score for 
   - high risk: .67
   - low risk: .91
-- The f1 score for 
-  - high risk : 0.07
-  - low risk : .95
 
-Model 5:
+Model 6:
 
 ![credRisk_images](Resources/easy_ensemble_title.PNG)
 ![credRisk_images](Resources/easy_ensemble_bal_cnfmtrx_rprt.PNG)
@@ -98,12 +92,9 @@ Model 5:
 - The recall score for 
   - high risk: .91
   - low risk: .94
-- The f1 score for 
-  - high risk : 0.14
-  - low risk : .97
 
 
-Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+## Summary
+![credRisk_images](Resources/chart.PNG)
 
-There is a summary of the results (2 pt)
-There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
+In summary 
