@@ -12,11 +12,21 @@ Results:
 
 There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models
 
-
-
-
-
-
+![credRisk_images](Resources/loan_stat_df.PNG)
+![credRisk_images](Resources/l_stat_counts.PNG)
+![credRisk_images](Resources/N_Over_Samp_title.PNG)
+![credRisk_images](Resources/Naive_Balnc_cnfMtrx_rprt.PNG)
+![credRisk_images](Resources/smote_ovr_samp_title.PNG)
+![credRisk_images](Resources/smote_blnc_cnfmtrx_rprt.PNG)
+![credRisk_images](Resources/undr_samp_title.PNG)
+![credRisk_images](Resources/undr_samp_blnc_cnfmtrx_rprt.PNG)
+![credRisk_images](Resources/combo_ovr_undr_samp_title.PNG)
+![credRisk_images](Resources/combo_undrOvr_blnc_cnfmtrx_rprt.PNG)
+![credRisk_images](Resources/ensemble_learner_title.PNG)
+![credRisk_images](Resources/bal_rnd_forest_title.PNG)
+![credRisk_images](Resources/bal_rand_forsest_accur_cnfmtrx_rprt.PNG)
+![credRisk_images](Resources/easy_ensemble_title.PNG)
+![credRisk_images](Resources/easy_ensemble_bal_cnfmtrx_rprt.PNG)
 
 
 Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
