@@ -14,9 +14,9 @@ The models/algorithms that were used to run this analysis are as follows:
 Image below is the loan status count of 'low risk' and 'high risk' for this analysis.
 ![credRisk_images](Resources/l_stat_counts.PNG)
 
-Model 1:
+Model 1: NAIVE RANDOM OVER SAMPLING
 
-![credRisk_images](Resources/N_Over_Samp_title.PNG)
+
 ![credRisk_images](Resources/Naive_Balnc_cnfMtrx_rprt.PNG)
 Results for the Naive Over Sampling are as follows:
 - The balanced accuracy score is 0.63
@@ -27,9 +27,9 @@ Results for the Naive Over Sampling are as follows:
   - high risk: .59
   - low risk: .67
      
- Model 2:
+ Model 2: SMOTE OVER SAMPLING
 
-![credRisk_images](Resources/smote_ovr_samp_title.PNG)
+
 ![credRisk_images](Resources/smote_blnc_cnfmtrx_rprt.PNG)
 Results for the Smote over sampling are as follows:
 - The balanced accuracy score is 0.63
@@ -42,7 +42,6 @@ Results for the Smote over sampling are as follows:
    
 Model 3: CLUSTER CENTROIDS
 
-![credRisk_images](Resources/undr_samp_title.PNG)
 ![credRisk_images](Resources/undr_samp_blnc_cnfmtrx_rprt.PNG)
 
 - The balanced accuracy score is 0.63
@@ -55,7 +54,6 @@ Model 3: CLUSTER CENTROIDS
 
 Model 4: SMOTEEN
 
-![credRisk_images](Resources/combo_ovr_undr_samp_title.PNG)
 ![credRisk_images](Resources/combo_undrOvr_blnc_cnfmtrx_rprt.PNG)
 
 - The balanced accuracy score is 0.52
@@ -66,10 +64,9 @@ Model 4: SMOTEEN
   - high risk: .69
   - low risk: .60
 
-Model 5:
 
-![credRisk_images](Resources/ensemble_learner_title.PNG)
-![credRisk_images](Resources/bal_rnd_forest_title.PNG)
+Model 5: BALANCED RANDOM FOREST CLASSIFIER
+
 ![credRisk_images](Resources/bal_rand_forsest_accur_cnfmtrx_rprt.PNG)
 
 - The balanced accuracy score is 0.79
@@ -80,9 +77,9 @@ Model 5:
   - high risk: .67
   - low risk: .91
 
-Model 6:
+Model 6: EASY ENSEMBLE CLASSIFIER
 
-![credRisk_images](Resources/easy_ensemble_title.PNG)
+
 ![credRisk_images](Resources/easy_ensemble_bal_cnfmtrx_rprt.PNG)
 
 - The balanced accuracy score is 0.93
@@ -97,4 +94,5 @@ Model 6:
 ## Summary
 ![credRisk_images](Resources/chart.PNG)
 
-In summary 
+
+The model with the highest accuracy score was the Easy Ensemble Classifier. The high risk recall was at 91%, having the best result in comparison the other models.  All the models had very low precision identifying high risk applicants. However, this drawback to all models would result in labeling a low risk candidate as high risk. The main purpose of this model was to identify high risk in which it does, (recall 91%). Therefore, I would recommend  model 6 'Easy Ensemble Classifier' to perform this analysis. 
