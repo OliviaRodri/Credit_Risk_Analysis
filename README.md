@@ -44,6 +44,8 @@ Model 3: CLUSTER CENTROIDS
 
 ![credRisk_images](Resources/undr_samp_blnc_cnfmtrx_rprt.PNG)
 
+Results for the Cluster centroid under sampling are as follows:
+
 - The balanced accuracy score is 0.63
 - The precision score for 
   - high risk is : 0.01
@@ -55,6 +57,8 @@ Model 3: CLUSTER CENTROIDS
 Model 4: SMOTEEN
 
 ![credRisk_images](Resources/combo_undrOvr_blnc_cnfmtrx_rprt.PNG)
+
+Results for the Smoteen over and under sampling, are as follows:
 
 - The balanced accuracy score is 0.52
 - The precision score for 
@@ -95,4 +99,4 @@ Model 6: EASY ENSEMBLE CLASSIFIER
 ![credRisk_images](Resources/chart.PNG)
 
 
-The model with the highest accuracy score was the Easy Ensemble Classifier. The high risk recall was at 91%, having the best result in comparison the other models.  All the models had very low precision identifying high risk applicants. However, this drawback to all models would result in labeling a low risk candidate as high risk. The main purpose of this model was to identify high risk in which it does, (recall 91%). Therefore, I would recommend  model 6 'Easy Ensemble Classifier' to perform this analysis. 
+The model with the highest accuracy score was the Easy Ensemble Classifier. The high risk recall was at 91%, having the best result in comparison to the other models.  All the models had very low precision identifying high risk applicants. However, this drawback to all models would result in labeling a low risk candidate as high risk. The main purpose of this model was to identify high risk in which it does, (recall 91%). Therefore, I would recommend  model 6 'Easy Ensemble Classifier' to perform this analysis. 
